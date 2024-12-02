@@ -141,7 +141,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Metamorfosis 23</span>
+                        <span>Copyright &copy; Metamorfosis 24</span>
                     </div>
                 </div>
             </footer>
@@ -189,7 +189,7 @@
     <script src="{{ asset('backend/js/sb-admin-2.min.js') }}"></script>
 
     <!-- Page level plugins -->
-    <script src="{{ asset('vendor/chart.js/Chart.min.js') }}"></script>
+    <script src="{{ asset('vendor/chart.js/chart.min.js') }}"></script>
 
 </body>
 

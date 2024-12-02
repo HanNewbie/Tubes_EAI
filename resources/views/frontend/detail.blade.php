@@ -101,8 +101,7 @@
                         <div class="card-footer border-top-0 bg-transparent">
                             <div class="text-center">
                                 <a class="btn d-flex align-items-center justify-content-center btn-primary mt-auto"
-                                    href="https://wa.me/62895325815577?text=Saya%20tertarik%20untuk%20menyewa%20mobil%20{{$car->nama_mobil}} ini" style="column-gap: 0.4rem">Sewa Mobil <i
-                                        class="ri-whatsapp-line"></i></a>
+                                    href="{{route('bayar', $car->slug)}}" style="column-gap: 0.4rem">Sewa Mobil</a>
                             </div>
                         </div>
                     </div>

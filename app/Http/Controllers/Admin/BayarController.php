@@ -4,23 +4,22 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Message;
+use App\Models\Bayar;
 
-class MessageController extends Controller
+class BayarController extends Controller
 {
     public function index(){
-        $messages = Message::latest()->get();
+        $bayars = Bayar::latest()->get();
 
-        return view('admin.messages.index', compact('messages'));
+        return view('admin.bayars.index', compact('bayars'));
     }
 
-    public function destroy(Message $message){
-        $message->delete();
+    public function destroys(Bayar $bayar){
+        $bayar->delete();
 
         return redirect()->back()->with([
             'message' => 'Data berhasil dihapus',
             'alert-type' => 'Bahaya'
         ]);
     }
-    
 }

@@ -52,21 +52,46 @@
         </div>
       </div>
     </nav>
-    <!-- Header-->
-  @yield('content')
-    <!-- Footer-->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">
-          Copyright &copy; Metamorfosis 24
-        </p>
-      </div>
-    </footer>
-    <!-- Bootstrap core JS-->
-    <script src="{{asset('frontend/js/bootstrap.js')}}"></script>
-    <!-- Core theme JS-->
-    <script src="{{asset('frontend/js/scripts.js')}}"></script>
-
-    @yield('scripts')
   </body>
+
+ {{-- INVOICE --}}
+ <section class="py-5">
+  <div class="card-body card-body-custom pt-10">
+    <div class="invoice-border mx-auto" style="max-width: 450px; border: 2px solid #000; border-radius: 5px; padding: 20px;">
+    <div class="text-center">
+      <h3 class="mb-4">INVOICE</h3>
+      <!-- Mobil -->
+      <ul class="list-unstyled list-style-group mx-auto" style="max-width: 400px;">
+        <li class="border-bottom p-2 d-flex justify-content-between">
+          <span>Nama</span>
+          <span style="font-weight: 600">{{ $bayars->nama }}</span>
+        </li>
+        <li class="border-bottom p-2 d-flex justify-content-between">
+          <span>Nomor handphone</span>
+          <span style="font-weight: 600">{{ $bayars->nomor }}</span>
+        </li>
+        <li class="border-bottom p-2 d-flex justify-content-between">
+          <span>Mobil </span>
+          <span style="font-weight: 600">{{ $bayars->mobil }}</span>
+        </li>
+        <li class="border-bottom p-2 d-flex justify-content-between">
+          <span>Harga </span>
+          <span style="font-weight: 600">Rp.{{ $bayars->harga }}</span>
+        </li>
+        <li class="border-bottom p-2 d-flex justify-content-between">
+          <span>Hari </span>
+          <span style="font-weight: 600">{{ $bayars->hari }}</span>
+        </li>
+        <li class="border-bottom p-2 d-flex justify-content-between">
+          <span>Total Harga </span>
+          <span style="font-weight: 600">Rp.{{ $bayars->harga_total}}</span>
+        </li>
+        <li class="border-bottom p-2 d-flex justify-content-between">
+          <span>Satus</span>
+          <span style="font-weight: 600">{{ $bayars->status }}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
 </html>

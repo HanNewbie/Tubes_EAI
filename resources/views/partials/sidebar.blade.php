@@ -33,4 +33,11 @@
             <span>Daftar Komplain</span></a>
     </li>
 
+    <hr class="sidebar-divider">
+    <li class="nav-item active">
+        <a class="nav-link" href="/admin/bayar">
+            <i class="fas fa-envelope fa-fw"></i>
+            <span>Daftar Pembayaran</span></a>
+    </li>
+
 </ul>

@@ -68,12 +68,10 @@
             <!-- Product actions-->
             <div class="card-footer border-top-0 bg-transparent">
               <div class="text-center">
-                <a class="btn btn-primary mt-auto" href="https://wa.me/62895325815577?text=Saya%20tertarik%20untuk%20menyewa%20mobil%20{{$car->nama_mobil}}">Sewa</a>
+                <a class="btn btn-primary mt-auto" href="{{route('bayar', $car->slug)}}">Sewa</a>
                 <a
                   class="btn btn-info mt-auto text-white"
-                  href="{{route('detail', $car->slug)}}"
-                  >Detail</a
-                >
+                  href="{{route('detail', $car->slug)}}">Detail</a>
               </div>
             </div>
           </div>
