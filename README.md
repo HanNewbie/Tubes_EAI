@@ -1,4 +1,4 @@
-# TUGAS BESAR DESAIN DAN PEMROGRAMAN WEB
+# TUGAS BESAR EAI
 ## Screenshots
 ![ss1](https://github.com/HanNewbie/Tubes_DPW/assets/146110996/357e4fc4-fb74-48db-9f16-da499b9be948)
 ![ss2](https://github.com/HanNewbie/Tubes_DPW/assets/146110996/47071be6-a7b7-4165-8bf5-90b83a8ffe4a)
