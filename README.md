@@ -12,7 +12,7 @@
 ```
 -  copy env file lalu sesuaikan dengan database
 ```bash
-    php artisan artisan migrate:fresh --seed
+    php artisan migrate:fresh --seed
 ```
 ```bash
     php artisan db:seed
