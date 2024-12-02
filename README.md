@@ -2,7 +2,7 @@
 
 #### Install Project
 ```bash
-    git clone https://github.com/HanNewbie/Tubes_DPW.git
+    git clone https://github.com/HanNewbie/Tubes_EAI.git
 ```
 ```bash
     composer install
