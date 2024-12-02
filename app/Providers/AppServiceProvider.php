@@ -23,9 +23,9 @@ class AppServiceProvider extends ServiceProvider
         // Hapus fungsi dibawah jika ingin menjalankan di localhost
 
         //Konfigurasi Public via ngrok
-        if(config('app.env') === 'local'){
-            URL::forceScheme('https');
+        // if(config('app.env') === 'local'){
+        //     URL::forceScheme('https');
        
-        }
+        // }
     }
 }
