@@ -1,5 +1,4 @@
 # TUGAS BESAR EAI
-## INTEGRASI DENGAN PAYMENT GATEWAY
 
 #### Install Project
 ```bash
